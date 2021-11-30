@@ -1,4 +1,4 @@
-/*
+/*  
 Colors:
 
 Text: 1A1A1A
@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+      font-family: "Outfit";
+  }
+  
+.top-logo {
+    width: 150px;  
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-ul {
+    width: 1200;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px 
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#for-everyone {
+    background-image: url('./../images/landing.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    margin-bottom: 10px ;
+}
+
+.first-p {
+    font-size: 1.5em;
+    color: white;
+    width: 600px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.whats-on {
+    border: 2px solid #00B172;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+}
+
+.advantages {
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+.adv-container {
+    display: flex;
+    text-align: center;
+    width: 300px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 300px;
+}
+
+.little-p {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#footer {
+    height: 600px;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.white-logo {
+    height: 150px;
+}
+
+.kanye {
+    height: 500px;
+}
+
+.yeezy {
+    font-size: 1.5em;
+    color: white;
+}
+
+.last-p {
+    color: white
+}
+
+.footer-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.kanye-west {
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 400px;
+}
+
+.title {
+    color: white;
+}
